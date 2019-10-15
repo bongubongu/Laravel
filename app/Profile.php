@@ -10,7 +10,7 @@ class Profile extends Model
 
     // 以下を追記
     public static $rules = array(
-        't名前' => 'required',
+        '名前' => 'required',
         '性別' => 'required',
         '趣味' => 'required',
         '自己紹介' => 'required',
